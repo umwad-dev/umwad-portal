@@ -1,0 +1,30 @@
+#phone,
+#telephone,
+#zipcode {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 4px 11px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  font-weight: 400;
+  transition: all 0.2s;
+  outline: none;
+}
+
+#phone:focus,
+#phone:active,
+#phone:hover,
+#telephone:focus,
+#telephone:active,
+#telephone:hover,
+#zipcode:focus,
+#zipcode:active,
+#zipcode:hover {
+  border: 1px solid #e46805 !important;
+}
